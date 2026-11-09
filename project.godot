@@ -1,0 +1,19 @@
+config_version=5
+
+[application]
+config/name="Huella Extinta"
+run/main_scene="res://scenes/menu_principal.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+
+[autoload]
+InputSetup="*res://scripts/input_setup.gd"
+EstadoJuego="*res://scripts/estado_juego.gd"
+
+[display]
+window/size/viewport_width=1152
+window/size/viewport_height=648
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+
