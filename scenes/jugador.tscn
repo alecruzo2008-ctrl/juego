@@ -1,0 +1,19 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/jugador.gd" id="1_lhlt4"]
+[ext_resource type="Texture2D" path="res://assets/animals/oso.png" id="2_28edd"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_k64kw"]
+radius = 12.0
+height = 28.0
+
+[node name="Jugador" type="CharacterBody2D" unique_id=1728031361]
+script = ExtResource("1_lhlt4")
+
+[node name="Sprite" type="Sprite2D" parent="." unique_id=709814155]
+texture = ExtResource("2_28edd")
+
+[node name="Colision" type="CollisionShape2D" parent="." unique_id=1193758961]
+shape = SubResource("CapsuleShape2D_k64kw")
+
+[node name="Camara" type="Camera2D" parent="." unique_id=476599215]

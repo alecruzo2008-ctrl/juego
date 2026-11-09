@@ -13,8 +13,8 @@
 |---|---|---|
 | 0. Entorno y repositorio | Completa | Godot 4.7.2; proyecto abre en modo headless. Commit inicial. |
 | 1. Autoloads y entradas | Completa | `InputSetup` registra controles; `EstadoJuego` centraliza estado y señales. |
-| 2. Jugador, movimiento y cámara | Pendiente | |
-| 3. Mapa del ecosistema | Pendiente | |
+| 2. Jugador, movimiento y cámara | Completa | Personaje provisional y cámara incluidos; controles de ocho direcciones. |
+| 3. Mapa del ecosistema | Completa | Mapa 40x30, TileSet con obstáculos sólidos y zonas transitables. |
 | 4. Interacción | Pendiente | |
 | 5. Vida, energía y HUD | Pendiente | |
 | 6. Misión | Pendiente | |
