@@ -1,0 +1,16 @@
+{
+  "especies": [
+    {
+      "id": "oso_anteojos",
+      "nombre_comun": "Oso de anteojos",
+      "nombre_cientifico": "Tremarctos ornatus",
+      "habitat": "Habita bosques andinos, bosques de niebla y páramos de los Andes tropicales.",
+      "dieta": "Consume frutos de árboles y arbustos; su dieta es amplia y también incluye otros recursos vegetales y animales.",
+      "distribucion": "En Colombia se registra en las tres cordilleras andinas.",
+      "amenazas": "La pérdida y fragmentación del hábitat y la cacería amenazan sus poblaciones.",
+      "fuente": "Instituto Alexander von Humboldt, Biodiversidad 2020, El oso andino: https://reporte.humboldt.org.co/biodiversidad/2020/cap2/205/ ; Instituto Humboldt, Oso andino: descubriendo al guardián de las montañas: https://www.humboldt.org.co/noticias/pensar-en-la-conservacion-del-oso-andino-es-pensar-en-la-conservacion-de-los-bosques-de-los-paramos-y-de-nosotros-mismos-como-humanos ; Instituto Humboldt, registros de mamíferos: https://www.humboldt.org.co/noticias/camaras-trampa-registraron-13-396-imagenes-de-fauna-en-colombia",
+      "desbloqueada": true
+    }
+  ]
+}
+

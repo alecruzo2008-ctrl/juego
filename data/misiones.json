@@ -1,0 +1,12 @@
+{
+  "misiones": [
+    {
+      "id": "m01",
+      "titulo": "Encontrar alimento",
+      "objetivo": "Recoge 3 frutos y habla con el guardabosques",
+      "requisitos": {"frutos": 3, "hablar_guardabosques": true},
+      "estado_inicial": "activa"
+    }
+  ]
+}
+

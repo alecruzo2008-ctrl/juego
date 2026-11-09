@@ -17,6 +17,7 @@ func _init() -> void:
 	ResourceSaver.save(tileset, "res://assets/environment/tileset.tres")
 	var raiz := Node2D.new()
 	raiz.name = "Mundo"
+	raiz.set_script(load("res://scripts/mundo_controlador.gd"))
 	var mapa := TileMapLayer.new()
 	mapa.name = "Mapa"
 	mapa.tile_set = tileset

@@ -11,6 +11,15 @@ var energia := 100.0
 var mision_activa := "Encontrar alimento"
 var zona := "bosque_andino"
 var posicion := Vector2(160, 160)
+var _tiempo_energia := 0.0
+
+func avanzar_supervivencia(delta: float) -> void:
+	_tiempo_energia += delta
+	if _tiempo_energia >= 3.0:
+		_tiempo_energia -= 3.0
+		cambiar_energia(-1.0)
+		if energia <= 0.0:
+			cambiar_vida(-1.0)
 
 func cambiar_vida(cantidad: float) -> void:
 	vida = clampf(vida + cantidad, 0.0, vida_maxima)
@@ -19,4 +28,13 @@ func cambiar_vida(cantidad: float) -> void:
 func cambiar_energia(cantidad: float) -> void:
 	energia = clampf(energia + cantidad, 0.0, energia_maxima)
 	energia_cambiada.emit(energia)
+
+func reiniciar() -> void:
+	vida = vida_maxima
+	energia = energia_maxima
+	posicion = Vector2(160, 160)
+	mision_activa = "Encontrar alimento"
+	vida_cambiada.emit(vida)
+	energia_cambiada.emit(energia)
+
 
