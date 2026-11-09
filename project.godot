@@ -8,6 +8,7 @@ config/features=PackedStringArray("4.3", "GL Compatibility")
 [autoload]
 InputSetup="*res://scripts/input_setup.gd"
 EstadoJuego="*res://scripts/estado_juego.gd"
+MisionManager="*res://scripts/mision_manager.gd"
 
 [display]
 window/size/viewport_width=1152

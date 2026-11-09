@@ -2,4 +2,10 @@
 builds/
 *.tmp
 .tools/godot/
+/.codex-remote-attachments/
+/Documentacion_Proyecto_Vida_Silvestre.1 (1).docx
+/Documentacion_Proyecto_Vida_Silvestre_revisada.docx
+/Informe_Diseno_Videojuego_Fauna_Amenazada_Colombia.docx
+/Plantilla_Informe_Diseno_Proyecto_Formativo_1.docx
+/~$*.docx
 
